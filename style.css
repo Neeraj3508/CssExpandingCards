@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 90vw;
+    height: 85vh;
+}
+.first {
+    background: url('./assets/first.jpg');
+}
+.second {
+    background: url("./assets/second.jpg");
+}
+.third {
+    background: url("./assets/third.jpg");
+}
+.fourth {
+    background: url("./assets/fourth.jpg");
+}
+.fifth {
+    background: url("./assets/fifth.jpg");
+}
+.background-config {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 1s ease-in-out;
+}
+.div-circular {
+    border-radius: 3rem;
+}
+.div-capsule {
+    border-radius: 10rem;
+}
